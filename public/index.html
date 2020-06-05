@@ -1,40 +1,128 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to kien.cf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="kiendt">
+    <title>Trung Kien Dang</title>
+    <!-- Preloader -->
+    <style>
+        @keyframes hidePreloader {
+            0% {
+                width: 100%;
+                height: 100%;
+            }
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.14.6/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.14.6/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.14.6/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.14.6/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.14.6/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+            100% {
+                width: 0;
+                height: 0;
+            }
+        }
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
+        body>div.preloader {
+            position: fixed;
+            background: white;
+            width: 100%;
+            height: 100%;
+            z-index: 1071;
+            opacity: 0;
+            transition: opacity .5s ease;
+            overflow: hidden;
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body:not(.loaded)>div.preloader {
+            opacity: 1;
+        }
+
+        body:not(.loaded) {
+            overflow: hidden;
+        }
+
+        body.loaded>div.preloader {
+            animation: hidePreloader .5s linear .5s forwards;
+        }
     </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>♥ Welcome aboard ♥</h2>
-      <h1>My personal website</h1>
-      <a target="_blank" href="https://fb.com/kiendt.hihi">kiendt.hihi</a>
+    <script>
+        window.addEventListener("load", function() {
+            setTimeout(function() {
+                document.querySelector('body').classList.add('loaded');
+            }, 300);
+        });
+    </script>
+    <link rel="stylesheet" href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- Quick CSS -->
+    <link rel="stylesheet" href="assets/css/quick-website.css" id="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
     </div>
-  </body>
+    <!-- Main content -->
+    <section class="slice py-7">
+        <div class="container">
+            <div class="row row-grid align-items-center">
+                <div class="col-12 col-md-5 col-lg-6 order-md-2 text-center">
+                    <!-- Image -->
+                    <figure class="w-100">
+                        <img alt="Image placeholder" src="assets/img/svg/illustrations/illustration-15.svg" class="img-fluid mw-md-120">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 order-md-1 pr-md-5">
+                    <!-- Heading -->
+                    <h1 class="display-4 text-center text-md-left mb-3">
+                        Show <strong class="text-primary">time</strong>
+                    </h1>
+                    <!-- Text -->
+                    <p class="lead text-center text-md-left text-muted">
+                       There is no universal language, framework, or technology that is the universal best choice for every software development problem.
+                    </p>
+                    <!-- Buttons -->
+                    <div class="text-center text-md-left mt-5">
+                        <a href="https://fb.com/kiendt.hihi" class="btn btn-primary btn-icon" target="_blank">
+                            <span class="btn-inner--text">Connect now</span>
+                            <span class="btn-inner--icon"><i data-feather="chevron-right"></i></span>
+                        </a>
+						<a href="https://www.linkedin.com/in/kunmyt/" class="btn btn-neutral btn-icon d-none d-lg-inline-block" target="_blank">Linkedin</a>						
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<footer class="position-relative" id="footer-main">
+        <div class="footer pt-lg-7 ">
+          <!-- Footer -->
+            <div class="container pt-4">
+             
+                <hr class="divider divider-fade divider-dark my-4">
+                <div class="row align-items-center justify-content-md-between pb-4">
+                    <div class="col-md-6">
+                        <div class="copyright text-sm font-weight-bold text-center text-md-left">
+                            &copy; 2020 <a href="https://fb.com/kiendt.hihi" class="font-weight-bold" target="_blank">Trung Kien Dang</a>. All rights reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/libs/feather-icons/dist/feather.min.js"></script>
+
+    <!-- Feather Icons -->
+    <script>
+        feather.replace({
+            'width': '1em',
+            'height': '1em'
+        })
+    </script>
+</body>
+
 </html>
