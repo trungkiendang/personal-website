@@ -1,4 +1,4 @@
 # personal-website
-Personal website \n
-Url: https://kien.cf \n
+Personal website  
+Url: https://kien.cf  
 Using: Firebase hosting
