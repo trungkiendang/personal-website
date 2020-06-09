@@ -2,8 +2,7 @@ name: deploy_to_firebase_hosting
 
 on:
   push:
-    tags:
-      - release-production-*
+
 
 jobs:
   deploy_to_firebase_hosting:
