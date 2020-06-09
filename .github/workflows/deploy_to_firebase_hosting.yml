@@ -2,7 +2,8 @@ name: deploy_to_firebase_hosting
 
 on:
   push:
-
+    branches:
+      - master
 
 jobs:
   deploy_to_firebase_hosting:
