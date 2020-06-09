@@ -1,128 +1,400 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="kiendt">
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <title>Trung Kien Dang</title>
-    <!-- Preloader -->
-    <style>
-        @keyframes hidePreloader {
-            0% {
-                width: 100%;
-                height: 100%;
-            }
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="kiendt cv" />
+    <meta name="keywords" content="kiendt, Trung Kien Dang, Freelance" />
+    <meta name="author" content="kiendt" />
+    <link rel="shortcut icon" href="favicon.ico">
 
-            100% {
-                width: 0;
-                height: 0;
-            }
-        }
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/transition-animations.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 
-        body>div.preloader {
-            position: fixed;
-            background: white;
-            width: 100%;
-            height: 100%;
-            z-index: 1071;
-            opacity: 0;
-            transition: opacity .5s ease;
-            overflow: hidden;
-            pointer-events: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+  </head>
 
-        body:not(.loaded)>div.preloader {
-            opacity: 1;
-        }
-
-        body:not(.loaded) {
-            overflow: hidden;
-        }
-
-        body.loaded>div.preloader {
-            animation: hidePreloader .5s linear .5s forwards;
-        }
-    </style>
-    <script>
-        window.addEventListener("load", function() {
-            setTimeout(function() {
-                document.querySelector('body').classList.add('loaded');
-            }, 300);
-        });
-    </script>
-    <link rel="stylesheet" href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
-    <!-- Quick CSS -->
-    <link rel="stylesheet" href="assets/css/quick-website.css" id="stylesheet">
-</head>
-
-<body>
-    <!-- Preloader -->
+  <body class="material-template">
+    <!-- Loading animation -->
     <div class="preloader">
-        <div class="spinner-border text-primary" role="status">
-            <span class="sr-only">Loading...</span>
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
         </div>
+      </div>
     </div>
-    <!-- Main content -->
-    <section class="slice py-7">
-        <div class="container">
-            <div class="row row-grid align-items-center">
-                <div class="col-12 col-md-5 col-lg-6 order-md-2 text-center">
-                    <!-- Image -->
-                    <figure class="w-100">
-                        <img alt="Image placeholder" src="assets/img/svg/illustrations/illustration-15.svg" class="img-fluid mw-md-120">
-                    </figure>
-                </div>
-                <div class="col-12 col-md-7 col-lg-6 order-md-1 pr-md-5">
-                    <!-- Heading -->
-                    <h1 class="display-4 text-center text-md-left mb-3">
-                        Show <strong class="text-primary">time</strong>
-                    </h1>
-                    <!-- Text -->
-                    <p class="lead text-center text-md-left text-muted">
-                       There is no universal language, framework, or technology that is the universal best choice for every software development problem.
-                    </p>
-                    <!-- Buttons -->
-                    <div class="text-center text-md-left mt-5">
-                        <a href="https://fb.com/kiendt.hihi" class="btn btn-primary btn-icon" target="_blank">
-                            <span class="btn-inner--text">Connect now</span>
-                            <span class="btn-inner--icon"><i data-feather="chevron-right"></i></span>
-                        </a>
-						<a href="https://www.linkedin.com/in/kunmyt/" class="btn btn-neutral btn-icon d-none d-lg-inline-block" target="_blank">Linkedin</a>						
-                    </div>
-                </div>
-            </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="header-content">
+          <div class="site-title-block mobile-hidden">
+            <div class="site-title">Trung Kien <span>Dang</span></div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="site-nav">
+            <!-- Main menu -->
+            <ul id="nav" class="site-main-menu">
+              <li>
+                <a class="pt-trigger" href="#home" data-animation="62">Home</a><!-- href value = data-id without # of .pt-page. -->
+              </li>
+              <li>
+                <a class="pt-trigger" href="#resume" data-animation="62">Resume</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#services" data-animation="62">Services</a>
+              </li>        
+            </ul>
+            <!-- /Main menu -->
+          </div>
+          <!-- Navigation -->
         </div>
-    </section>
-	<footer class="position-relative" id="footer-main">
-        <div class="footer pt-lg-7 ">
-          <!-- Footer -->
-            <div class="container pt-4">
-             
-                <hr class="divider divider-fade divider-dark my-4">
-                <div class="row align-items-center justify-content-md-between pb-4">
-                    <div class="col-md-6">
-                        <div class="copyright text-sm font-weight-bold text-center text-md-left">
-                            &copy; 2020 <a href="https://fb.com/kiendt.hihi" class="font-weight-bold" target="_blank">Trung Kien Dang</a>. All rights reserved
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title">Trung Kien Dang</div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
+
+            <!-- Home Subpage -->
+            <section class="pt-page" data-id="home">
+              <div class="section-inner start-page-content">
+                <div class="page-header">
+                  <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <div class="photo">
+                        <img src="images/photo.png" alt="">
+                      </div>
+                    </div>
+
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                      <div class="title-block">
+                        <h1>Trung Kien Dang</h1>
+                        <div class="owl-carousel text-rotation">                                    
+                          <div class="item">
+                            <div class="sp-subtitle">Web Developer</div>
+                          </div>
+                          <div class="item">
+                            <div class="sp-subtitle">Frontend-developer</div>
+                          </div>
+						  <div class="item">
+                            <div class="sp-subtitle">Backend-developer</div>
+                          </div>
+						  <div class="item">
+                            <div class="sp-subtitle">BA Fresher</div>
+                          </div>
                         </div>
+                      </div>
+
+                      <div class="social-links">
+                        <a href="https://fb.com/kiendt.hihi"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/kunmyt/"><i class="fa fa-linkedin"></i></a>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
+
+                <div class="page-content">
+                  <div class="row">
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="about-me">
+                        <div class="block-title">
+                          <h3>About <span>Me</span></h3>
+                        </div>
+                        <p>Hello! I’m Trung Kien Dang.</p>
+						<p>"There is no universal language, framework, or technology that is the universal best choice for every software development problem."</p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <ul class="info-list">
+                        <li><span class="title">Age</span><span class="value" id="age"></span></li>
+                        <li><span class="title">Residence</span><span class="value">Vietnam</span></li>
+                        <li><span class="title">Address</span><span class="value">Hanoi, Vietnam</span></li>
+                        <li><span class="title">E-mail</span><span class="value"><a href="mailto:kunmyt91@gmail.com">kunmyt91@gmail.com</a></span></li>
+                        <li><span class="title">Freelance</span><span class="value available">Available</span></li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page" data-id="resume">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Resume</h2>
+                </div>
+                <div class="page-content">
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Education</h3>
+                        </div>
+
+                        <div class="timeline">
+                          <!-- Education 1 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Hanoi University of Business and Technology</h4>
+                            <span class="item-period">Oct 2009 - May 2013</span>
+                            <span class="item-small">GPA: 3.2/4</span>
+                            <p class="item-description">Major: Information Technology</p>
+                          </div>
+                          <!-- / Education 1 -->
+
+                          <!-- Education 2 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Cao Ba Quat - Gia Lam High School</h4>
+                            <span class="item-period">2006-2009</span>
+                            <span class="item-small"></span>
+                            <p class="item-description"></p>
+                          </div>
+                          <!-- / Education 2 -->
+
+                          <!-- Education 3 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Da Ton Secondary School</h4>
+                            <span class="item-period">2003-2006</span>
+                            <span class="item-small"></span>
+                            <p class="item-description"></p>
+                          </div>
+                          <!-- / Education 3 -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Experience</h3>
+                        </div>
+
+                        <div class="timeline">
+                          <!-- Experience 1 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Frontend-developer</h4>
+                            <span class="item-period">Jan 2016 - Current</span>
+                            <span class="item-small">VIEGRID.,JSC</span>
+                            <p class="item-description">Knowledge of technologies like HTML, CSS, and JavaScript, some frontend frameworks </p>
+                          </div>
+                          <!-- / Experience 1 -->
+
+                          <!-- Experience 2 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">Backend-developer</h4>
+                            <span class="item-period">May 2013 - Now</span>
+                            <span class="item-small">VIEGRID.,JSC</span>
+                            <p class="item-description">Knowledge database and caching, server with multiple development languages. Also knowledge of web services or API such as creations and consumption of REST and SOAP. Knowledge of Algorithms and data structures and awareness of security concerns include session management in a distributed server enviroment</p>
+                          </div>
+                          <!-- / Experience 2 -->
+
+                          <!-- Experience 3 -->
+                          <div class="timeline-item">
+                            <h4 class="item-title">BA Fresher</h4>
+                            <span class="item-period">Mar 2020 - Now</span>
+                            <span class="item-small">VIEGRID.,JSC</span>
+                            <p class="item-description">Knowledge BPMN</p>
+                          </div>
+                          <!-- / Experience 3 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Design <span>Skills</span></h3>
+                        </div>
+
+                        <div class="skills-info">
+                          <h4>Web Design</h4>                               
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-5"></div>
+                          </div>
+
+                          <h4>Graphic Design</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div>
+
+                          <h4>Print Design</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div> 
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="block">
+                        <div class="block-title">
+                          <h3>Coding <span>Skills</span></h3>
+                        </div>
+
+                        <div class="skills-info">
+                          <h4>Java</h4>                               
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-7"></div>
+                          </div>
+
+                          <h4>C#</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-7"></div>
+                          </div>
+
+                          <h4>Objective-C</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div> 
+						  <h4>C/C++</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-3"></div>
+                          </div> 
+						  <h4>Python</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-4"></div>
+                          </div> 
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Resume Subpage -->
+
+
+            <!-- Services Subpage -->
+            <section class="pt-page" data-id="services">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>Services</h2>
+                </div>
+                <div class="page-content">
+                  <!-- My Services -->
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3>My <span>Services</span></h3>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <!--<i class="service-icon fa fa-shopping-cart"></i>-->
+                          <div class="service-image">
+                            <img src="images/service/web_design_icon.png" alt="Responsive Design" class="mCS_img_loaded">
+                          </div>
+                          <h4>Web Design</h4>
+                          <p>Includes everything that is required to make a web site online</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <div class="service-image">
+                            <img src="images/service/aplication-development.png" alt="Photography" class="mCS_img_loaded">
+                          </div>
+                          <h4>Application development</h4>
+                          <p>Create mobile application, windows-form application in multiple languages</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <div class="service-image">
+                            <img src="images/service/system-Integration.png" alt="Creativity" class="mCS_img_loaded">
+                          </div>
+                          <h4>System integrate</h4>
+                          <p>Bringing together the component sub-system into one system. Ensuring the sub-system function together as a system</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                      <div class="service-block"> 
+                        <div class="service-info">
+                          <div class="service-image">
+                            <img src="images/service/advisory-services-icon.jpg" alt="Advetising" class="mCS_img_loaded">
+                          </div>
+                          <h4>Advisory</h4>
+                          <p>Focuses on making strategy for the success and growth of a business</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of My Services -->
+                </div>
+              </div>
+            </section>
+            <!-- End of Services Subpage -->
+
+          </div>
         </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+    <footer>
+      <div class="copyrights">© 2020 All rights reserved.</div>
     </footer>
-    <script src="assets/libs/feather-icons/dist/feather.min.js"></script>
 
-    <!-- Feather Icons -->
-    <script>
-        feather.replace({
-            'width': '1em',
-            'height': '1em'
-        })
-    </script>
-</body>
-
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/pages-switcher.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/validator.js"></script>
+    <script type="text/javascript" src="js/jquery.shuffle.min.js"></script>
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+	
+	<script>
+	$(document).ready(function() {
+		var d = new Date();
+		var y = d.getFullYear();
+		$('#age').text(y-1991);
+	});
+	</script>
+  </body>
 </html>
