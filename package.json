@@ -1,0 +1,14 @@
+{
+  "name": "kiendt-website",
+  "version": "1.0.0",
+  "description": "Personal website and resume",
+  "homepage": "https://kiendt.github.io/resume",
+  "scripts": {
+    "deploy": "gh-pages -d public"
+  },
+  "author": "kiendt",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
