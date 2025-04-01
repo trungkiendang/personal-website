@@ -5,7 +5,7 @@ This is my personal website/resume built with pure HTML, CSS, and JavaScript.
 ## Deployment
 
 The website is deployed on GitHub Pages:
-- https://kiendt.github.io/resume
+- https://trungkiendang.github.io/personal-website/
 
 ## Development
 
