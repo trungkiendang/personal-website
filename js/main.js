@@ -1,44 +1,32 @@
-// Navigation scroll effect
-const nav = document.getElementById('nav');
-const navToggle = document.getElementById('navToggle');
-const navLinks = document.getElementById('navLinks');
-const links = document.querySelectorAll('.nav-link');
+// Active nav link on scroll
+$(function () {
+  var sections = $('section[id], header[id]');
+  var navItems = $('#navCollapse .nav a');
 
-window.addEventListener('scroll', () => {
-  nav.classList.toggle('scrolled', window.scrollY > 10);
-});
-
-// Mobile nav toggle
-navToggle.addEventListener('click', () => {
-  navLinks.classList.toggle('open');
-});
-
-// Close mobile nav on link click
-links.forEach(link => {
-  link.addEventListener('click', () => {
-    navLinks.classList.remove('open');
+  $(window).on('scroll', function () {
+    var current = '';
+    sections.each(function () {
+      var top = $(this).offset().top - 100;
+      if ($(window).scrollTop() >= top) {
+        current = '#' + $(this).attr('id');
+      }
+    });
+    navItems.parent().removeClass('active');
+    navItems.filter('[href="' + current + '"]').parent().addClass('active');
   });
-});
 
-// Active nav link highlighting
-const sections = document.querySelectorAll('section[id]');
-window.addEventListener('scroll', () => {
-  let current = '';
-  sections.forEach(section => {
-    const top = section.offsetTop - 100;
-    if (window.scrollY >= top) {
-      current = section.getAttribute('id');
+  // Close mobile nav on click
+  navItems.on('click', function () {
+    if ($('.navbar-toggle').is(':visible')) {
+      $('#navCollapse').collapse('hide');
     }
   });
-  links.forEach(link => {
-    link.classList.toggle('active', link.getAttribute('href') === '#' + current);
-  });
 });
 
-// Current year in footer
+// Current year
 document.getElementById('currentYear').textContent = new Date().getFullYear();
 
-// GitHub data fetching
+// GitHub data
 async function fetchGitHubData() {
   try {
     const [userRes, reposRes] = await Promise.all([
@@ -50,22 +38,22 @@ async function fetchGitHubData() {
 
     document.getElementById('public-repos').textContent = user.public_repos;
     document.getElementById('followers').textContent = user.followers;
-    document.getElementById('total-stars').textContent = repos.reduce((a, r) => a + r.stargazers_count, 0);
+    document.getElementById('total-stars').textContent = repos.reduce(function (a, r) { return a + r.stargazers_count; }, 0);
 
-    const list = document.getElementById('repos-list');
-    list.innerHTML = repos.map(repo => `
-      <div class="repo-card">
-        <h4><a href="${repo.html_url}" target="_blank" rel="noopener"><i class="fa fa-github"></i> ${repo.name}</a></h4>
-        <p>${repo.description || 'No description available'}</p>
-        <div class="repo-stats">
-          <span><i class="fa fa-star"></i> ${repo.stargazers_count}</span>
-          <span><i class="fa fa-code-fork"></i> ${repo.forks_count}</span>
-        </div>
-        ${repo.language ? `<span class="repo-language">${repo.language}</span>` : ''}
-      </div>
-    `).join('');
+    var list = document.getElementById('repos-list');
+    list.innerHTML = repos.map(function (repo) {
+      return '<div class="repo-card">' +
+        '<h4><a href="' + repo.html_url + '" target="_blank" rel="noopener"><i class="fa fa-github"></i> ' + repo.name + '</a></h4>' +
+        '<p>' + (repo.description || 'No description available') + '</p>' +
+        '<div class="repo-stats">' +
+          '<span><i class="fa fa-star"></i> ' + repo.stargazers_count + '</span>' +
+          '<span><i class="fa fa-code-fork"></i> ' + repo.forks_count + '</span>' +
+        '</div>' +
+        (repo.language ? '<span class="repo-language">' + repo.language + '</span>' : '') +
+      '</div>';
+    }).join('');
   } catch (err) {
-    document.getElementById('repos-list').innerHTML = '<p style="color:var(--color-text-muted)">Unable to load GitHub data.</p>';
+    document.getElementById('repos-list').innerHTML = '<p class="text-muted">Unable to load GitHub data.</p>';
   }
 }
 
