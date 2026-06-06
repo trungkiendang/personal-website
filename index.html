@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TrungKien Dang — Head of Business Unit</title>
+  <title data-i18n="page.title">TrungKien Dang — Head of Business Unit</title>
   <meta name="description" content="Trung Kien Dang - Head of Business Unit, Delivery Manager, Senior Project Manager based in Hanoi, Vietnam." />
   <link rel="icon" href="favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,11 +30,22 @@
       </div>
       <div class="collapse navbar-collapse" id="navCollapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#education">Education</a></li>
-        
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+          <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+          <li><a href="#education" data-i18n="nav.education">Education</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              <i class="fa fa-globe"></i> <span id="currentLang">EN</span> <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu lang-menu" role="menu">
+              <li><a href="#" data-lang="en">English</a></li>
+              <li><a href="#" data-lang="zh">中文</a></li>
+              <li><a href="#" data-lang="ja">日本語</a></li>
+              <li><a href="#" data-lang="de">Deutsch</a></li>
+              <li><a href="#" data-lang="ko">한국어</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
@@ -49,9 +60,9 @@
             <img src="images/avata.gif" alt="TrungKien Dang" />
           </div>
           <h1 class="hero-name">TrungKien Dang</h1>
-          <p class="hero-title">Head of Business Unit &middot; Delivery Manager &middot; Senior Project Manager</p>
+          <p class="hero-title" data-i18n="hero.title">Head of Business Unit &middot; Delivery Manager &middot; Senior Project Manager</p>
           <ul class="hero-contact list-inline">
-            <li><i class="fa fa-map-marker"></i> Hanoi, Vietnam</li>
+            <li><i class="fa fa-map-marker"></i> <span data-i18n="hero.location">Hanoi, Vietnam</span></li>
             <li><i class="fa fa-envelope"></i> <a href="mailto:kiendangtrung@live.com">kiendangtrung@live.com</a></li>
             <li><i class="fa fa-phone"></i> <a href="tel:+84968001613">+84 968 001 613</a></li>
           </ul>
@@ -70,8 +81,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <h2 class="section-title">About Me</h2>
-          <p class="about-text" style="text-align:justify">Results-driven Solution Architect and IT Manager based in Hanoi, bringing 14 years of software engineering and over 7 years of leadership experience. Proven expertise in designing scalable enterprise platforms, e-government systems, and mission-critical aviation solutions. Adept at aligning complex technical architectures with business objectives to drive digital transformation. Strong background in leading cross-functional teams utilizing Agile and PMI methodologies to ensure successful project delivery from conceptualization to deployment. Proficient in modern tech stacks including Java, .NET, and Python, with a track record of optimizing operational efficiency and system performance.</p>
+          <h2 class="section-title" data-i18n="about.title">About Me</h2>
+          <p class="about-text" style="text-align:justify" data-i18n="about.text">Results-driven Solution Architect and IT Manager based in Hanoi, bringing 14 years of software engineering and over 7 years of leadership experience. Proven expertise in designing scalable enterprise platforms, e-government systems, and mission-critical aviation solutions. Adept at aligning complex technical architectures with business objectives to drive digital transformation. Strong background in leading cross-functional teams utilizing Agile and PMI methodologies to ensure successful project delivery from conceptualization to deployment. Proficient in modern tech stacks including Java, .NET, and Python, with a track record of optimizing operational efficiency and system performance.</p>
         </div>
       </div>
     </div>
@@ -82,23 +93,23 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <h2 class="section-title">Experience</h2>
+          <h2 class="section-title" data-i18n="exp.title">Experience</h2>
 
           <div class="timeline">
             <div class="timeline-item">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <span class="timeline-badge">Apr 2025 &ndash; Apr 2026</span>
-                <h3 class="timeline-role">Head of Business Unit</h3>
-                <p class="timeline-company">Viettel Technology Investment</p>
+                <span class="timeline-badge" data-i18n="exp.0.badge">Apr 2025 &ndash; Apr 2026</span>
+                <h3 class="timeline-role" data-i18n="exp.0.role">Head of Business Unit</h3>
+                <p class="timeline-company" data-i18n="exp.0.company">Viettel Technology Investment</p>
                 <ul class="timeline-details">
-                  <li>Lead and manage a Software Outsourcing Business Unit with 270 engineers across 50+ concurrent projects.</li>
-                  <li>Define and execute business strategy, operational roadmap, and delivery governance.</li>
-                  <li>Oversee end-to-end delivery operations &mdash; on time, within budget, aligned with quality standards.</li>
-                  <li>Build a high-performing engineering organization: recruitment, capability development, leadership pipeline.</li>
-                  <li>Strengthen client relationships, identify new market opportunities, and expand service offerings.</li>
-                  <li>Lead commercial activities including contract negotiation, pricing strategy, and profitability management.</li>
-                  <li>Collaborate with Sales, HR, and Finance to optimize resource planning and business performance.</li>
+                  <li data-i18n="exp.0.d0">Lead and manage a Software Outsourcing Business Unit with 270 engineers across 50+ concurrent projects.</li>
+                  <li data-i18n="exp.0.d1">Define and execute business strategy, operational roadmap, and delivery governance.</li>
+                  <li data-i18n="exp.0.d2">Oversee end-to-end delivery operations &mdash; on time, within budget, aligned with quality standards.</li>
+                  <li data-i18n="exp.0.d3">Build a high-performing engineering organization: recruitment, capability development, leadership pipeline.</li>
+                  <li data-i18n="exp.0.d4">Strengthen client relationships, identify new market opportunities, and expand service offerings.</li>
+                  <li data-i18n="exp.0.d5">Lead commercial activities including contract negotiation, pricing strategy, and profitability management.</li>
+                  <li data-i18n="exp.0.d6">Collaborate with Sales, HR, and Finance to optimize resource planning and business performance.</li>
                 </ul>
               </div>
             </div>
@@ -106,15 +117,15 @@
             <div class="timeline-item">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <span class="timeline-badge">Jul 2024 &ndash; Mar 2025</span>
-                <h3 class="timeline-role">Project Manager</h3>
-                <p class="timeline-company">Viettel Technology Investment</p>
+                <span class="timeline-badge" data-i18n="exp.1.badge">Jul 2024 &ndash; Mar 2025</span>
+                <h3 class="timeline-role" data-i18n="exp.1.role">Project Manager</h3>
+                <p class="timeline-company" data-i18n="exp.1.company">Viettel Technology Investment</p>
                 <ul class="timeline-details">
-                  <li>Created plans, defined goals, and estimated resources for project implementation.</li>
-                  <li>Controlled and monitored progress; analyzed implementation results.</li>
-                  <li>Reported results at each milestone to all stakeholders.</li>
-                  <li>Mentored team members in technical skills and Agile mindset.</li>
-                  <li><strong>Projects:</strong> 10 &middot; <strong>Team size:</strong> 40&ndash;80</li>
+                  <li data-i18n="exp.1.d0">Created plans, defined goals, and estimated resources for project implementation.</li>
+                  <li data-i18n="exp.1.d1">Controlled and monitored progress; analyzed implementation results.</li>
+                  <li data-i18n="exp.1.d2">Reported results at each milestone to all stakeholders.</li>
+                  <li data-i18n="exp.1.d3">Mentored team members in technical skills and Agile mindset.</li>
+                  <li data-i18n="exp.1.d4"><strong>Projects:</strong> 10 &middot; <strong>Team size:</strong> 40&ndash;80</li>
                 </ul>
               </div>
             </div>
@@ -122,12 +133,12 @@
             <div class="timeline-item">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <span class="timeline-badge">Nov 2023 &ndash; Apr 2024</span>
-                <h3 class="timeline-role">Senior Specialist &mdash; Solution Architect</h3>
-                <p class="timeline-company">Tien Phong Commercial Joint Stock Bank (TPBank)</p>
+                <span class="timeline-badge" data-i18n="exp.2.badge">Nov 2023 &ndash; Apr 2024</span>
+                <h3 class="timeline-role" data-i18n="exp.2.role">Senior Specialist &mdash; Solution Architect</h3>
+                <p class="timeline-company" data-i18n="exp.2.company">Tien Phong Commercial Joint Stock Bank (TPBank)</p>
                 <ul class="timeline-details">
-                  <li>Provided architectural solution consultancy for internal projects.</li>
-                  <li>Evaluated and positioned legacy system conversion for current architecture.</li>
+                  <li data-i18n="exp.2.d0">Provided architectural solution consultancy for internal projects.</li>
+                  <li data-i18n="exp.2.d1">Evaluated and positioned legacy system conversion for current architecture.</li>
                 </ul>
               </div>
             </div>
@@ -135,16 +146,16 @@
             <div class="timeline-item">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <span class="timeline-badge">Mar 2021 &ndash; Oct 2023</span>
-                <h3 class="timeline-role">Project Manager &amp; Senior Software Engineer</h3>
-                <p class="timeline-company">B&amp;T Vietnam Solutions and Technology Company Limited</p>
+                <span class="timeline-badge" data-i18n="exp.3.badge">Mar 2021 &ndash; Oct 2023</span>
+                <h3 class="timeline-role" data-i18n="exp.3.role">Project Manager &amp; Senior Software Engineer</h3>
+                <p class="timeline-company" data-i18n="exp.3.company">B&amp;T Vietnam Solutions and Technology Company Limited</p>
                 <ul class="timeline-details">
-                  <li>Planned and allocated resources for teams of 15&ndash;30 engineers (Dev and QA).</li>
-                  <li>Directed 5&ndash;8 members per project using Agile; managed risks and resolved critical issues.</li>
-                  <li>Researched open-source WSO2 for Enterprise Bus System; built and integrated with Gradle.</li>
-                  <li>Researched open-source Zimbra for Mail System using Maven.</li>
-                  <li>Implemented microservices architecture using Spring Boot and .NET Core.</li>
-                  <li>Optimized database queries (Oracle, MSSQL) reducing response time 5&ndash;15%.</li>
+                  <li data-i18n="exp.3.d0">Planned and allocated resources for teams of 15&ndash;30 engineers (Dev and QA).</li>
+                  <li data-i18n="exp.3.d1">Directed 5&ndash;8 members per project using Agile; managed risks and resolved critical issues.</li>
+                  <li data-i18n="exp.3.d2">Researched open-source WSO2 for Enterprise Bus System; built and integrated with Gradle.</li>
+                  <li data-i18n="exp.3.d3">Researched open-source Zimbra for Mail System using Maven.</li>
+                  <li data-i18n="exp.3.d4">Implemented microservices architecture using Spring Boot and .NET Core.</li>
+                  <li data-i18n="exp.3.d5">Optimized database queries (Oracle, MSSQL) reducing response time 5&ndash;15%.</li>
                 </ul>
               </div>
             </div>
@@ -152,15 +163,15 @@
             <div class="timeline-item">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <span class="timeline-badge">Mar 2012 &ndash; Sep 2020</span>
-                <h3 class="timeline-role">Developer &middot; Project Manager &middot; Programming Manager</h3>
-                <p class="timeline-company">VIEGRID Communication and Technology Joint Stock Company</p>
+                <span class="timeline-badge" data-i18n="exp.4.badge">Mar 2012 &ndash; Sep 2020</span>
+                <h3 class="timeline-role" data-i18n="exp.4.role">Developer &middot; Project Manager &middot; Programming Manager</h3>
+                <p class="timeline-company" data-i18n="exp.4.company">VIEGRID Communication and Technology Joint Stock Company</p>
                 <ul class="timeline-details">
-                  <li>Built social networks (Viebooks, Vtcafes), reading apps (VReader Android/iOS), and E-Office government software.</li>
-                  <li>Lead NLP &amp; machine translation research; co-authored papers; built English&ndash;Vietnamese&ndash;Chinese translation system.</li>
-                  <li>Project coordinator for Ministry of Industry and Trade high-tech product on multilingual translation.</li>
-                  <li>Built security systems on Viegrid&rsquo;s VCM12 core technology; developed LAN security services.</li>
-                  <li><strong>Team size:</strong> 20+</li>
+                  <li data-i18n="exp.4.d0">Built social networks (Viebooks, Vtcafes), reading apps (VReader Android/iOS), and E-Office government software.</li>
+                  <li data-i18n="exp.4.d1">Lead NLP &amp; machine translation research; co-authored papers; built English&ndash;Vietnamese&ndash;Chinese translation system.</li>
+                  <li data-i18n="exp.4.d2">Project coordinator for Ministry of Industry and Trade high-tech product on multilingual translation.</li>
+                  <li data-i18n="exp.4.d3">Built security systems on Viegrid&rsquo;s VCM12 core technology; developed LAN security services.</li>
+                  <li data-i18n="exp.4.d4"><strong>Team size:</strong> 20+</li>
                 </ul>
               </div>
             </div>
@@ -176,49 +187,49 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <h2 class="section-title">Skills</h2>
+          <h2 class="section-title" data-i18n="skills.title">Skills</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-6 col-md-3">
           <div class="skill-group">
-            <h3 class="skill-group-title">Management</h3>
+            <h3 class="skill-group-title" data-i18n="skills.0.title">Management</h3>
             <ul class="skill-list">
-              <li>P&amp;L ownership, risk, cost &amp; quality control</li>
-              <li>Stakeholder engagement &amp; roadmap prioritization</li>
-              <li>Team scaling, coaching &amp; mentoring</li>
-              <li>Agile/Scrum, Kanban, Waterfall, Jira</li>
+              <li data-i18n="skills.0.i0">P&amp;L ownership, risk, cost &amp; quality control</li>
+              <li data-i18n="skills.0.i1">Stakeholder engagement &amp; roadmap prioritization</li>
+              <li data-i18n="skills.0.i2">Team scaling, coaching &amp; mentoring</li>
+              <li data-i18n="skills.0.i3">Agile/Scrum, Kanban, Waterfall, Jira</li>
             </ul>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="skill-group">
-            <h3 class="skill-group-title">Languages</h3>
+            <h3 class="skill-group-title" data-i18n="skills.1.title">Languages</h3>
             <ul class="skill-list">
-              <li><strong>Java</strong> &mdash; Spring Boot (Advanced)</li>
-              <li><strong>.NET</strong> &mdash; Core + Framework (Advanced)</li>
-              <li><strong>Python</strong> &mdash; Intermediate</li>
-              <li><strong>JavaScript</strong> &mdash; Angular, Ionic (Intermediate)</li>
+              <li data-i18n="skills.1.i0"><strong>Java</strong> &mdash; Spring Boot (Advanced)</li>
+              <li data-i18n="skills.1.i1"><strong>.NET</strong> &mdash; Core + Framework (Advanced)</li>
+              <li data-i18n="skills.1.i2"><strong>Python</strong> &mdash; Intermediate</li>
+              <li data-i18n="skills.1.i3"><strong>JavaScript</strong> &mdash; Angular, Ionic (Intermediate)</li>
             </ul>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="skill-group">
-            <h3 class="skill-group-title">Infrastructure</h3>
+            <h3 class="skill-group-title" data-i18n="skills.2.title">Infrastructure</h3>
             <ul class="skill-list">
-              <li>Linux, AWS, Azure</li>
-              <li>Enterprise Architecture, BPMN 2.0</li>
-              <li>CI/CD, Docker, Microservices</li>
-              <li>Cisco Packet Tracer &mdash; CCNA</li>
+              <li data-i18n="skills.2.i0">Linux, AWS, Azure</li>
+              <li data-i18n="skills.2.i1">Enterprise Architecture, BPMN 2.0</li>
+              <li data-i18n="skills.2.i2">CI/CD, Docker, Microservices</li>
+              <li data-i18n="skills.2.i3">Cisco Packet Tracer &mdash; CCNA</li>
             </ul>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="skill-group">
-            <h3 class="skill-group-title">Languages</h3>
+            <h3 class="skill-group-title" data-i18n="skills.3.title">Languages</h3>
             <ul class="skill-list">
-              <li><strong>Vietnamese</strong> &mdash; Native</li>
-              <li><strong>English</strong> &mdash; Professional</li>
+              <li data-i18n="skills.3.i0"><strong>Vietnamese</strong> &mdash; Native</li>
+              <li data-i18n="skills.3.i1"><strong>English</strong> &mdash; Professional</li>
             </ul>
           </div>
         </div>
@@ -231,35 +242,35 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <h2 class="section-title">Education</h2>
+          <h2 class="section-title" data-i18n="edu.title">Education</h2>
 
           <div class="row">
             <div class="col-sm-6">
               <div class="edu-card">
-                <span class="edu-badge">2023 &ndash; 2025</span>
-                <h3 class="edu-degree">Master of Information Technology</h3>
-                <p class="edu-school">Hanoi University of Mining and Geology</p>
-                <p class="edu-desc">Specializing in Geoinformatics</p>
+                <span class="edu-badge" data-i18n="edu.0.badge">2023 &ndash; 2025</span>
+                <h3 class="edu-degree" data-i18n="edu.0.degree">Master of Information Technology</h3>
+                <p class="edu-school" data-i18n="edu.0.school">Hanoi University of Mining and Geology</p>
+                <p class="edu-desc" data-i18n="edu.0.desc">Specializing in Geoinformatics</p>
               </div>
             </div>
             <div class="col-sm-6">
               <div class="edu-card">
-                <span class="edu-badge">2009 &ndash; 2013</span>
-                <h3 class="edu-degree">Bachelor of Information Technology</h3>
-                <p class="edu-school">Hanoi University of Business and Technology</p>
-                <p class="edu-desc">GPA: 3.2 / 4.0</p>
+                <span class="edu-badge" data-i18n="edu.1.badge">2009 &ndash; 2013</span>
+                <h3 class="edu-degree" data-i18n="edu.1.degree">Bachelor of Information Technology</h3>
+                <p class="edu-school" data-i18n="edu.1.school">Hanoi University of Business and Technology</p>
+                <p class="edu-desc" data-i18n="edu.1.desc">GPA: 3.2 / 4.0</p>
               </div>
             </div>
           </div>
 
-          <h3 class="section-subtitle">Certifications</h3>
-          <p class="text-muted">Project Management Professional (PMP) &mdash; Expected 2026</p>
+          <h3 class="section-subtitle" data-i18n="edu.cert.title">Certifications</h3>
+          <p class="text-muted" data-i18n="edu.cert.text">Project Management Professional (PMP) &mdash; Expected 2026</p>
 
-          <h3 class="section-subtitle">Interests</h3>
-          <span class="label label-primary interest-label">Reading</span>
-          <span class="label label-primary interest-label">IT News</span>
-          <span class="label label-primary interest-label">RPG Games</span>
-          <span class="label label-primary interest-label">Badminton</span>
+          <h3 class="section-subtitle" data-i18n="edu.int.title">Interests</h3>
+          <span class="label label-primary interest-label" data-i18n="edu.int.0">Reading</span>
+          <span class="label label-primary interest-label" data-i18n="edu.int.1">IT News</span>
+          <span class="label label-primary interest-label" data-i18n="edu.int.2">RPG Games</span>
+          <span class="label label-primary interest-label" data-i18n="edu.int.3">Badminton</span>
         </div>
       </div>
     </div>
@@ -268,13 +279,14 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <p class="text-muted">&copy; <span id="currentYear"></span> Trung Kien Dang. All rights reserved.</p>
+      <p class="text-muted" data-i18n="footer.copyright">&copy; <span id="currentYear"></span> Trung Kien Dang. All rights reserved.</p>
       <p class="text-muted"><a href="mailto:kiendangtrung@live.com">kiendangtrung@live.com</a> &middot; <a href="tel:+84968001613">+84 968 001 613</a></p>
     </div>
   </footer>
 
   <script src="js/jquery-2.1.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

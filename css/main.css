@@ -464,6 +464,23 @@ a:hover, a:focus {
   color: var(--primary);
 }
 
+/* ===== Language Switcher ===== */
+.lang-menu {
+  min-width: 120px;
+}
+
+.lang-menu > li > a {
+  font-size: 13px;
+  padding: 6px 16px;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background: transparent;
+  color: var(--text);
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 767px) {
   .hero {
