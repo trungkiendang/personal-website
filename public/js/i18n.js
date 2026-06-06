@@ -4,6 +4,7 @@ var i18n = (function () {
   var t = {
     en: {
       "page.title": "TrungKien Dang — Head of Business Unit",
+      "notice.translated": "",
       "nav.about": "About",
       "nav.experience": "Experience",
       "nav.skills": "Skills",
@@ -93,6 +94,7 @@ var i18n = (function () {
 
     zh: {
       "page.title": "TrungKien Dang — 业务部门主管",
+      "notice.translated": "⚠ 部分内容由机器翻译",
       "nav.about": "关于我",
       "nav.experience": "经历",
       "nav.skills": "技能",
@@ -182,6 +184,7 @@ var i18n = (function () {
 
     ja: {
       "page.title": "TrungKien Dang — 事業部長",
+      "notice.translated": "⚠ 一部のコンテンツは機械翻訳です",
       "nav.about": "私について",
       "nav.experience": "経歴",
       "nav.skills": "スキル",
@@ -271,6 +274,7 @@ var i18n = (function () {
 
     de: {
       "page.title": "TrungKien Dang — Leiter Geschäftsbereich",
+      "notice.translated": "⚠ Einige Inhalte wurden maschinell übersetzt",
       "nav.about": "Über mich",
       "nav.experience": "Erfahrung",
       "nav.skills": "Kenntnisse",
@@ -360,6 +364,7 @@ var i18n = (function () {
 
     ko: {
       "page.title": "TrungKien Dang — 비즈니스 유닛 총괄",
+      "notice.translated": "⚠ 일부 내용은 기계 번역되었습니다",
       "nav.about": "소개",
       "nav.experience": "경력",
       "nav.skills": "기술",
@@ -445,10 +450,100 @@ var i18n = (function () {
       "edu.int.2": "RPG 게임",
       "edu.int.3": "배드민턴",
       "footer.copyright": "&copy; {year} Trung Kien Dang. All rights reserved."
+    },
+
+    vi: {
+      "page.title": "TrungKien Dang — Trưởng Khối Kinh doanh",
+      "notice.translated": "⚠ Một số nội dung được dịch bằng máy",
+      "nav.about": "Giới thiệu",
+      "nav.experience": "Kinh nghiệm",
+      "nav.skills": "Kỹ năng",
+      "nav.education": "Học vấn",
+      "hero.title": "Trưởng Khối Kinh doanh · Giám đốc Giao hàng · Quản lý Dự án Cao cấp",
+      "hero.location": "Hà Nội, Việt Nam",
+      "about.title": "Giới thiệu",
+      "about.text": "Kiến trúc sư Giải pháp và Quản lý CNTT định hướng kết quả có trụ sở tại Hà Nội, với 14 năm kinh nghiệm kỹ thuật phần mềm và hơn 7 năm kinh nghiệm lãnh đạo. Chuyên môn đã được chứng minh trong việc thiết kế các nền tảng doanh nghiệp có khả năng mở rộng, hệ thống chính phủ điện tử và các giải pháp hàng không quan trọng. Có khả năng kết nối các kiến trúc kỹ thuật phức tạp với mục tiêu kinh doanh để thúc đẩy chuyển đổi số. Nền tảng vững chắc trong việc dẫn dắt các nhóm đa chức năng sử dụng phương pháp Agile và PMI để đảm bảo phân phối dự án thành công từ ý tưởng đến triển khai. Thành thạo các công nghệ hiện đại bao gồm Java, .NET và Python, với thành tích tối ưu hóa hiệu quả vận hành và hiệu suất hệ thống.",
+      "exp.title": "Kinh nghiệm",
+      "exp.0.badge": "Th4 2025 – Th4 2026",
+      "exp.0.role": "Trưởng Khối Kinh doanh",
+      "exp.0.company": "Viettel Technology Investment",
+      "exp.0.d0": "Lãnh đạo và quản lý Khối Kinh doanh Gia công Phần mềm với 270 kỹ sư trong hơn 50 dự án đồng thời.",
+      "exp.0.d1": "Xác định và thực thi chiến lược kinh doanh, lộ trình vận hành và quản trị giao hàng.",
+      "exp.0.d2": "Giám sát hoạt động giao hàng end-to-end — đúng thời hạn, trong ngân sách, đạt chuẩn chất lượng.",
+      "exp.0.d3": "Xây dựng tổ chức kỹ thuật hiệu suất cao: tuyển dụng, phát triển năng lực, xây dựng đội ngũ lãnh đạo.",
+      "exp.0.d4": "Củng cố quan hệ khách hàng, xác định cơ hội thị trường mới và mở rộng dịch vụ.",
+      "exp.0.d5": "Dẫn dắt hoạt động thương mại bao gồm đàm phán hợp đồng, chiến lược giá và quản lý lợi nhuận.",
+      "exp.0.d6": "Phối hợp với Bán hàng, Nhân sự và Tài chính để tối ưu hóa kế hoạch nguồn lực và hiệu quả kinh doanh.",
+      "exp.1.badge": "Th7 2024 – Th3 2025",
+      "exp.1.role": "Quản lý Dự án",
+      "exp.1.company": "Viettel Technology Investment",
+      "exp.1.d0": "Lập kế hoạch, xác định mục tiêu và ước tính nguồn lực cho triển khai dự án.",
+      "exp.1.d1": "Kiểm soát và giám sát tiến độ; phân tích kết quả thực hiện.",
+      "exp.1.d2": "Báo cáo kết quả tại mỗi cột mốc cho các bên liên quan.",
+      "exp.1.d3": "Hướng dẫn thành viên nhóm về kỹ năng kỹ thuật và tư duy Agile.",
+      "exp.1.d4": "<strong>Số dự án:</strong> 10 · <strong>Quy mô nhóm:</strong> 40–80",
+      "exp.2.badge": "Th11 2023 – Th4 2024",
+      "exp.2.role": "Chuyên gia Cao cấp — Kiến trúc sư Giải pháp",
+      "exp.2.company": "Ngân hàng TMCP Tiên Phong (TPBank)",
+      "exp.2.d0": "Cung cấp tư vấn giải pháp kiến trúc cho các dự án nội bộ.",
+      "exp.2.d1": "Đánh giá và định vị chuyển đổi hệ thống kế thừa cho kiến trúc hiện tại.",
+      "exp.3.badge": "Th3 2021 – Th10 2023",
+      "exp.3.role": "Quản lý Dự án & Kỹ sư Phần mềm Cao cấp",
+      "exp.3.company": "Công ty TNHH Giải pháp và Công nghệ B&T Việt Nam",
+      "exp.3.d0": "Lập kế hoạch và phân bổ nguồn lực cho nhóm 15–30 kỹ sư (Dev và QA).",
+      "exp.3.d1": "Chỉ đạo 5–8 thành viên mỗi dự án bằng Agile; quản lý rủi ro và giải quyết vấn đề nghiêm trọng.",
+      "exp.3.d2": "Nghiên cứu WSO2 mã nguồn mở cho Hệ thống Bus Doanh nghiệp; xây dựng và tích hợp với Gradle.",
+      "exp.3.d3": "Nghiên cứu Zimbra mã nguồn mở cho Hệ thống Thư điện tử sử dụng Maven.",
+      "exp.3.d4": "Triển khai kiến trúc microservices sử dụng Spring Boot và .NET Core.",
+      "exp.3.d5": "Tối ưu hóa truy vấn cơ sở dữ liệu (Oracle, MSSQL) giảm thời gian phản hồi 5–15%.",
+      "exp.4.badge": "Th3 2012 – Th9 2020",
+      "exp.4.role": "Lập trình viên · Quản lý Dự án · Quản lý Lập trình",
+      "exp.4.company": "Công ty Cổ phần Truyền thông và Công nghệ VIEGRID",
+      "exp.4.d0": "Xây dựng mạng xã hội (Viebooks, Vtcafes), ứng dụng đọc sách (VReader Android/iOS) và phần mềm chính phủ E-Office.",
+      "exp.4.d1": "Dẫn dắt nghiên cứu NLP & dịch máy; đồng tác giả bài báo; xây dựng hệ thống dịch Anh–Việt–Trung.",
+      "exp.4.d2": "Điều phối dự án sản phẩm công nghệ cao về dịch đa ngôn ngữ cho Bộ Công Thương.",
+      "exp.4.d3": "Xây dựng hệ thống bảo mật trên công nghệ lõi VCM12 của Viegrid; phát triển dịch vụ bảo mật LAN.",
+      "exp.4.d4": "<strong>Quy mô nhóm:</strong> 20+",
+      "skills.title": "Kỹ năng",
+      "skills.0.title": "Quản lý",
+      "skills.0.i0": "Chịu trách nhiệm P&L, kiểm soát rủi ro, chi phí & chất lượng",
+      "skills.0.i1": "Tương tác với các bên liên quan & ưu tiên lộ trình",
+      "skills.0.i2": "Mở rộng đội nhóm, đào tạo & cố vấn",
+      "skills.0.i3": "Agile/Scrum, Kanban, Waterfall, Jira",
+      "skills.1.title": "Ngôn ngữ lập trình",
+      "skills.1.i0": "<strong>Java</strong> — Spring Boot (Nâng cao)",
+      "skills.1.i1": "<strong>.NET</strong> — Core + Framework (Nâng cao)",
+      "skills.1.i2": "<strong>Python</strong> — Trung cấp",
+      "skills.1.i3": "<strong>JavaScript</strong> — Angular, Ionic (Trung cấp)",
+      "skills.2.title": "Hạ tầng",
+      "skills.2.i0": "Linux, AWS, Azure",
+      "skills.2.i1": "Kiến trúc Doanh nghiệp, BPMN 2.0",
+      "skills.2.i2": "CI/CD, Docker, Microservices",
+      "skills.2.i3": "Cisco Packet Tracer — CCNA",
+      "skills.3.title": "Ngôn ngữ",
+      "skills.3.i0": "<strong>Tiếng Việt</strong> — Bản ngữ",
+      "skills.3.i1": "<strong>Tiếng Anh</strong> — Chuyên nghiệp",
+      "edu.title": "Học vấn",
+      "edu.0.badge": "2023 – 2025",
+      "edu.0.degree": "Thạc sĩ Công nghệ Thông tin",
+      "edu.0.school": "Đại học Mỏ - Địa chất Hà Nội",
+      "edu.0.desc": "Chuyên ngành Địa tin học",
+      "edu.1.badge": "2009 – 2013",
+      "edu.1.degree": "Cử nhân Công nghệ Thông tin",
+      "edu.1.school": "Đại học Kinh doanh và Công nghệ Hà Nội",
+      "edu.1.desc": "GPA: 3.2 / 4.0",
+      "edu.cert.title": "Chứng chỉ",
+      "edu.cert.text": "Project Management Professional (PMP) — Dự kiến 2026",
+      "edu.int.title": "Sở thích",
+      "edu.int.0": "Đọc sách",
+      "edu.int.1": "Tin tức CNTT",
+      "edu.int.2": "Game nhập vai",
+      "edu.int.3": "Cầu lông",
+      "footer.copyright": "&copy; {year} Trung Kien Dang. Bảo lưu mọi quyền."
     }
   };
 
-  var langNames = { en: "EN", zh: "中文", ja: "日本語", de: "DE", ko: "한국어" };
+  var langNames = { en: "EN", zh: "中文", ja: "日本語", de: "DE", ko: "한국어", vi: "VI" };
 
   function getText(key) {
     var lang = t[currentLang];
@@ -469,6 +564,17 @@ var i18n = (function () {
     var langLabel = document.getElementById('currentLang');
     if (langLabel) langLabel.textContent = langNames[currentLang] || currentLang.toUpperCase();
     document.documentElement.lang = currentLang;
+
+    var notice = document.getElementById('translationNotice');
+    if (notice) {
+      var noticeText = getText('notice.translated');
+      if (currentLang !== 'en' && noticeText) {
+        notice.innerHTML = noticeText;
+        notice.style.display = 'block';
+      } else {
+        notice.style.display = 'none';
+      }
+    }
   }
 
   function setLang(lang) {
