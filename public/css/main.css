@@ -360,90 +360,6 @@ a:hover, a:focus {
   margin: 0 4px 8px 0;
 }
 
-/* ===== GitHub Stats ===== */
-.stat-card {
-  background: var(--surface);
-  padding: 24px 16px;
-  text-align: center;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  margin-bottom: 24px;
-  transition: box-shadow 0.2s;
-}
-
-.stat-card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
-}
-
-.stat-card i {
-  font-size: 24px;
-  color: var(--primary);
-  margin-bottom: 8px;
-}
-
-.stat-value {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--text);
-}
-
-.stat-label {
-  font-size: 13px;
-  color: var(--text-muted);
-  margin-top: 2px;
-}
-
-/* ===== Activity List ===== */
-.activity-list {
-  margin-top: 8px;
-}
-
-.activity-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 14px;
-  padding: 14px 0;
-  border-bottom: 1px solid var(--border);
-}
-
-.activity-item:last-child {
-  border-bottom: none;
-}
-
-.activity-icon {
-  flex-shrink: 0;
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: var(--primary-light);
-  color: var(--primary);
-  font-size: 15px;
-}
-
-.activity-body {
-  flex: 1;
-  min-width: 0;
-}
-
-.activity-text {
-  font-size: 14px;
-  color: var(--text-secondary);
-  margin: 0 0 2px;
-  line-height: 1.5;
-}
-
-.activity-text a {
-  font-weight: 500;
-}
-
-.activity-meta {
-  font-size: 12px;
-  color: var(--text-muted);
-}
-
 /* ===== Footer ===== */
 .footer {
   padding: 32px 0;
@@ -465,6 +381,33 @@ a:hover, a:focus {
 }
 
 /* ===== Language Switcher ===== */
+.lang-header {
+  float: right;
+  margin: 8px 0;
+  position: relative;
+}
+
+.lang-header > .dropdown > a {
+  display: block;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 20px;
+  transition: color 0.2s;
+}
+
+.lang-header > .dropdown > a:hover,
+.lang-header > .dropdown > a:focus {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.lang-header .dropdown-menu {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 .lang-menu {
   min-width: 120px;
 }
@@ -500,7 +443,5 @@ a:hover, a:focus {
     padding: 48px 0;
   }
 
-  .stat-card {
-    margin-bottom: 16px;
-  }
+
 }
