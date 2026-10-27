@@ -588,11 +588,11 @@ var i18n = (function () {
 
   apply();
 
-  $(function () {
-    $('[data-lang]').on('click', function (e) {
-      e.preventDefault();
-      setLang($(this).data('lang'));
-    });
+  document.addEventListener('click', function (e) {
+    var link = e.target.closest ? e.target.closest('[data-lang]') : null;
+    if (!link) return;
+    e.preventDefault();
+    setLang(link.getAttribute('data-lang'));
   });
 
   return { getLang: function () { return currentLang; }, setLang: setLang, apply: apply };
