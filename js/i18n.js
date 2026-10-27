@@ -610,7 +610,7 @@ var i18n = (function () {
     var year = new Date().getFullYear();
     // Experience counters grow automatically each calendar year.
     var EXP_START = 2012;   // first software engineering role
-    var LEAD_START = 2019;  // first leadership role
+    var LEAD_START = 2016;  // started as trainee manager
     var els = document.querySelectorAll('[data-i18n]');
     for (var i = 0; i < els.length; i++) {
       var el = els[i];
