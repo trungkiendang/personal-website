@@ -12,7 +12,7 @@ var i18n = (function () {
       "hero.title": "Head of Business Unit · Delivery Manager · Senior Project Manager",
       "hero.location": "Hanoi, Vietnam",
       "about.title": "About Me",
-      "about.text": "Results-driven Solution Architect and IT Manager based in Hanoi, bringing 14 years of software engineering and over 7 years of leadership experience. Proven expertise in designing scalable enterprise platforms, e-government systems, and mission-critical aviation solutions. Adept at aligning complex technical architectures with business objectives to drive digital transformation. Strong background in leading cross-functional teams utilizing Agile and PMI methodologies to ensure successful project delivery from conceptualization to deployment. Proficient in modern tech stacks including Java, .NET, and Python, with a track record of optimizing operational efficiency and system performance.",
+      "about.text": "Results-driven Solution Architect and IT Manager based in Hanoi, bringing {exp} years of software engineering and over {lead} years of leadership experience. Proven expertise in designing scalable enterprise platforms, e-government systems, and mission-critical aviation solutions. Adept at aligning complex technical architectures with business objectives to drive digital transformation. Strong background in leading cross-functional teams utilizing Agile and PMI methodologies to ensure successful project delivery from conceptualization to deployment. Proficient in modern tech stacks including Java, .NET, and Python, with a track record of optimizing operational efficiency and system performance. Actively applying AI — LLMs, AI coding assistants, and agentic workflows — to accelerate application development, from prototyping and code review to test automation and delivery.",
       "exp.title": "Experience",
       "exp.0.badge": "Apr 2025 – Apr 2026",
       "exp.0.role": "Head of Business Unit",
@@ -47,7 +47,7 @@ var i18n = (function () {
       "exp.2.d0": "Provided architectural solution consultancy for internal projects.",
       "exp.2.d1": "Evaluated and positioned legacy system conversion for current architecture.",
       "exp.3.badge": "Mar 2021 – Oct 2023",
-      "exp.3.role": "Project Manager & Senior Software Engineer",
+      "exp.3.role": "Deputy Director · Project Manager · Senior Software Engineer",
       "exp.3.company": "B&T Vietnam Solutions and Technology Company Limited",
       "exp.3.d0": "Planned and allocated resources for teams of 15–30 engineers (Dev and QA).",
       "exp.3.d1": "Directed 5–8 members per project using Agile; managed risks and resolved critical issues.",
@@ -63,6 +63,7 @@ var i18n = (function () {
       "exp.4.d2": "Project coordinator for Ministry of Industry and Trade high-tech product on multilingual translation.",
       "exp.4.d3": "Built security systems on Viegrid's VCM12 core technology; developed LAN security services.",
       "exp.4.d4": "<strong>Team size:</strong> 20+",
+      "exp.4.d5": "Since 2016, took on mid-level management responsibilities, leading development teams and projects.",
       "skills.title": "Skills",
       "skills.0.title": "Management",
       "skills.0.i0": "P&L ownership, risk, cost & quality control",
@@ -111,7 +112,7 @@ var i18n = (function () {
       "hero.title": "业务部门主管 · 交付经理 · 高级项目经理",
       "hero.location": "越南河内",
       "about.title": "关于我",
-      "about.text": "作为一名注重成果的解决方案架构师和IT经理，常驻越南河内，拥有14年软件工程经验和超过7年的领导经验。在设计可扩展的企业平台、电子政务系统和关键任务航空解决方案方面具有经过验证的专业知识。擅长将复杂的技术架构与业务目标相结合，推动数字化转型。在领导跨职能团队使用Agile和PMI方法论确保项目从概念到交付的成功方面拥有丰富的经验。精通现代技术栈，包括Java、.NET和Python，在优化运营效率和系统性能方面有着良好的记录。",
+      "about.text": "作为一名注重成果的解决方案架构师和IT经理，常驻越南河内，拥有{exp}年软件工程经验和超过{lead}年的领导经验。在设计可扩展的企业平台、电子政务系统和关键任务航空解决方案方面具有经过验证的专业知识。擅长将复杂的技术架构与业务目标相结合，推动数字化转型。在领导跨职能团队使用Agile和PMI方法论确保项目从概念到交付的成功方面拥有丰富的经验。精通现代技术栈，包括Java、.NET和Python，在优化运营效率和系统性能方面有着良好的记录。积极应用人工智能——大语言模型、AI编程助手和智能体工作流——加速应用开发，涵盖原型设计、代码审查、测试自动化到交付。",
       "exp.title": "经历",
       "exp.0.badge": "2025年4月 – 2026年4月",
       "exp.0.role": "业务部门主管",
@@ -146,7 +147,7 @@ var i18n = (function () {
       "exp.2.d0": "为内部项目提供架构解决方案咨询。",
       "exp.2.d1": "评估和定位遗留系统转换为当前架构。",
       "exp.3.badge": "2021年3月 – 2023年10月",
-      "exp.3.role": "项目经理及高级软件工程师",
+      "exp.3.role": "副总经理 · 项目经理 · 高级软件工程师",
       "exp.3.company": "B&T Vietnam Solutions and Technology Company Limited",
       "exp.3.d0": "为15-30名工程师（开发和质量保证）的团队规划和分配资源。",
       "exp.3.d1": "使用Agile指导每个项目5-8名成员；管理风险并解决关键问题。",
@@ -162,6 +163,7 @@ var i18n = (function () {
       "exp.4.d2": "担任工业和贸易部多语言翻译高科技产品的项目协调员。",
       "exp.4.d3": "在Viegrid的VCM12核心技术基础上构建安全系统；开发局域网安全服务。",
       "exp.4.d4": "<strong>团队规模：</strong> 20+",
+      "exp.4.d5": "自2016年起担任中层管理职务，负责带领开发团队和项目。",
       "skills.title": "技能",
       "skills.0.title": "管理",
       "skills.0.i0": "损益责任、风险、成本和质量控制",
@@ -210,7 +212,7 @@ var i18n = (function () {
       "hero.title": "事業部長 · デリバリーマネージャー · シニアプロジェクトマネージャー",
       "hero.location": "ベトナム ハノイ",
       "about.title": "私について",
-      "about.text": "結果重視のソリューションアーキテクト兼ITマネージャー、ハノイ在住。14年のソフトウェアエンジニアリング経験と7年以上のリーダーシップ経験を有する。スケーラブルなエンタープライズプラットフォーム、電子政府システム、ミッションクリティカルな航空ソリューションの設計における確かな専門知識を持つ。複雑な技術アーキテクチャをビジネス目標と整合させ、デジタルトランスフォーメーションを推進することに長けている。AgileおよびPMI手法を活用したクロスファンクショナルチームのリーダーシップにおいて豊富な経験を持ち、構想から展開までのプロジェクト成功を確実にする。Java、.NET、Pythonを含む最新のテクノロジースタックに精通し、運用効率とシステムパフォーマンスの最適化で実績を挙げている。",
+      "about.text": "結果重視のソリューションアーキテクト兼ITマネージャー、ハノイ在住。{exp}年のソフトウェアエンジニアリング経験と{lead}年以上のリーダーシップ経験を有する。スケーラブルなエンタープライズプラットフォーム、電子政府システム、ミッションクリティカルな航空ソリューションの設計における確かな専門知識を持つ。複雑な技術アーキテクチャをビジネス目標と整合させ、デジタルトランスフォーメーションを推進することに長けている。AgileおよびPMI手法を活用したクロスファンクショナルチームのリーダーシップにおいて豊富な経験を持ち、構想から展開までのプロジェクト成功を確実にする。Java、.NET、Pythonを含む最新のテクノロジースタックに精通し、運用効率とシステムパフォーマンスの最適化で実績を挙げている。LLM、AIコーディングアシスタント、エージェント型ワークフローなどのAIを積極的に活用し、プロトタイピングやコードレビューからテスト自動化、デリバリーに至るまでアプリケーション開発を加速している。",
       "exp.title": "経歴",
       "exp.0.badge": "2025年4月 – 2026年4月",
       "exp.0.role": "事業部長",
@@ -245,7 +247,7 @@ var i18n = (function () {
       "exp.2.d0": "内部プロジェクトへのアーキテクチャソリューションコンサルティングを提供。",
       "exp.2.d1": "現在のアーキテクチャに向けたレガシーシステム変換の評価と位置付け。",
       "exp.3.badge": "2021年3月 – 2023年10月",
-      "exp.3.role": "プロジェクトマネージャー & シニアソフトウェアエンジニア",
+      "exp.3.role": "副ディレクター · プロジェクトマネージャー · シニアソフトウェアエンジニア",
       "exp.3.company": "B&T Vietnam Solutions and Technology Company Limited",
       "exp.3.d0": "15～30名のエンジニア（開発者とQA）からなるチームの計画とリソース配分。",
       "exp.3.d1": "Agileを使用したプロジェクトあたり5～8名のメンバー指導、リスク管理と重要な問題の解決。",
@@ -261,6 +263,7 @@ var i18n = (function () {
       "exp.4.d2": "商工省の多言語翻訳ハイテク製品のプロジェクトコーディネーターを担当。",
       "exp.4.d3": "ViegridのVCM12コア技術に基づくセキュリティシステムを構築、LANセキュリティサービスを開発。",
       "exp.4.d4": "<strong>チーム規模：</strong> 20+",
+      "exp.4.d5": "2016年より中間管理職として、開発チームとプロジェクトを統率。",
       "skills.title": "スキル",
       "skills.0.title": "マネジメント",
       "skills.0.i0": "P&L責任、リスク・コスト・品質管理",
@@ -309,7 +312,7 @@ var i18n = (function () {
       "hero.title": "Leiter Geschäftsbereich · Delivery Manager · Senior Projektmanager",
       "hero.location": "Hanoi, Vietnam",
       "about.title": "Über mich",
-      "about.text": "Ergebnisorientierter Solution Architect und IT-Manager mit Sitz in Hanoi mit 14 Jahren Erfahrung in der Softwareentwicklung und über 7 Jahren Führungserfahrung. Nachgewiesene Expertise im Entwurf skalierbarer Unternehmensplattformen, E-Government-Systeme und sicherheitskritischer Luftfahrtlösungen. Versiert in der Abstimmung komplexer technischer Architekturen mit Geschäftszielen zur Förderung der digitalen Transformation. Umfassender Hintergrund in der Leitung funktionsübergreifender Teams mit Agile- und PMI-Methoden zur Sicherstellung erfolgreicher Projektabwicklung von der Konzeption bis zur Bereitstellung. Kenntnisreich in modernen Technologie-Stacks einschließlich Java, .NET und Python mit nachweislicher Erfolgsbilanz bei der Optimierung von Betriebseffizienz und Systemleistung.",
+      "about.text": "Ergebnisorientierter Solution Architect und IT-Manager mit Sitz in Hanoi mit {exp} Jahren Erfahrung in der Softwareentwicklung und über {lead} Jahren Führungserfahrung. Nachgewiesene Expertise im Entwurf skalierbarer Unternehmensplattformen, E-Government-Systeme und sicherheitskritischer Luftfahrtlösungen. Versiert in der Abstimmung komplexer technischer Architekturen mit Geschäftszielen zur Förderung der digitalen Transformation. Umfassender Hintergrund in der Leitung funktionsübergreifender Teams mit Agile- und PMI-Methoden zur Sicherstellung erfolgreicher Projektabwicklung von der Konzeption bis zur Bereitstellung. Kenntnisreich in modernen Technologie-Stacks einschließlich Java, .NET und Python mit nachweislicher Erfolgsbilanz bei der Optimierung von Betriebseffizienz und Systemleistung. Setzt KI aktiv ein – LLMs, KI-Coding-Assistenten und agentische Workflows –, um die Anwendungsentwicklung vom Prototyping über Code-Reviews bis hin zu Testautomatisierung und Auslieferung zu beschleunigen.",
       "exp.title": "Berufserfahrung",
       "exp.0.badge": "Apr. 2025 – Apr. 2026",
       "exp.0.role": "Leiter Geschäftsbereich",
@@ -344,7 +347,7 @@ var i18n = (function () {
       "exp.2.d0": "Beratung zu architektonischen Lösungen für interne Projekte.",
       "exp.2.d1": "Bewertung und Positionierung der Legacy-Systemkonvertierung für die aktuelle Architektur.",
       "exp.3.badge": "Mär. 2021 – Okt. 2023",
-      "exp.3.role": "Projektmanager & Senior Software Engineer",
+      "exp.3.role": "Stellvertretender Direktor · Projektmanager · Senior Software Engineer",
       "exp.3.company": "B&T Vietnam Solutions and Technology Company Limited",
       "exp.3.d0": "Planung und Zuweisung von Ressourcen für Teams von 15–30 Ingenieuren (Dev und QA).",
       "exp.3.d1": "Leitung von 5–8 Mitgliedern pro Projekt mit Agile; Risikomanagement und Lösung kritischer Probleme.",
@@ -360,6 +363,7 @@ var i18n = (function () {
       "exp.4.d2": "Projektkoordinator für Hightech-Produkt des Ministeriums für Industrie und Handel zur mehrsprachigen Übersetzung.",
       "exp.4.d3": "Erstellung von Sicherheitssystemen auf Viegrids VCM12-Kerntechnologie; Entwicklung von LAN-Sicherheitsdiensten.",
       "exp.4.d4": "<strong>Teamgröße:</strong> 20+",
+      "exp.4.d5": "Seit 2016 mit Verantwortung im mittleren Management, Leitung von Entwicklungsteams und Projekten.",
       "skills.title": "Kenntnisse",
       "skills.0.title": "Management",
       "skills.0.i0": "P&L-Verantwortung, Risiko-, Kosten- & Qualitätskontrolle",
@@ -408,7 +412,7 @@ var i18n = (function () {
       "hero.title": "비즈니스 유닛 총괄 · 딜리버리 매니저 · 시니어 프로젝트 매니저",
       "hero.location": "베트남 하노이",
       "about.title": "소개",
-      "about.text": "하노이 기반의 결과 중심 솔루션 아키텍트 겸 IT 매니저로, 14년의 소프트웨어 엔지니어링 경험과 7년 이상의 리더십 경험을 보유하고 있습니다. 확장 가능한 엔터프라이즈 플랫폼, 전자정부 시스템, 미션 크리티컬 항공 솔루션 설계에 검증된 전문성을 갖추고 있습니다. 복잡한 기술 아키텍처를 비즈니스 목표와 정렬하여 디지털 전환을 추진하는 데 능숙합니다. Agile 및 PMI 방법론을 활용한 교차 기능 팀 리더십에 강력한 배경을 가지고 있으며, 개념화부터 배포까지 프로젝트 성공을 보장합니다. Java, .NET, Python을 포함한 최신 기술 스택에 능통하며, 운영 효율성과 시스템 성능 최적화에서 입증된 실적을 보유하고 있습니다.",
+      "about.text": "하노이 기반의 결과 중심 솔루션 아키텍트 겸 IT 매니저로, {exp}년의 소프트웨어 엔지니어링 경험과 {lead}년 이상의 리더십 경험을 보유하고 있습니다. 확장 가능한 엔터프라이즈 플랫폼, 전자정부 시스템, 미션 크리티컬 항공 솔루션 설계에 검증된 전문성을 갖추고 있습니다. 복잡한 기술 아키텍처를 비즈니스 목표와 정렬하여 디지털 전환을 추진하는 데 능숙합니다. Agile 및 PMI 방법론을 활용한 교차 기능 팀 리더십에 강력한 배경을 가지고 있으며, 개념화부터 배포까지 프로젝트 성공을 보장합니다. Java, .NET, Python을 포함한 최신 기술 스택에 능통하며, 운영 효율성과 시스템 성능 최적화에서 입증된 실적을 보유하고 있습니다. LLM, AI 코딩 어시스턴트, 에이전트 워크플로우 등 AI를 적극 활용하여 프로토타이핑과 코드 리뷰부터 테스트 자동화와 배포에 이르기까지 애플리케이션 개발을 가속화하고 있습니다.",
       "exp.title": "경력",
       "exp.0.badge": "2025년 4월 – 2026년 4월",
       "exp.0.role": "비즈니스 유닛 총괄",
@@ -443,7 +447,7 @@ var i18n = (function () {
       "exp.2.d0": "내부 프로젝트를 위한 아키텍처 솔루션 컨설팅 제공.",
       "exp.2.d1": "현재 아키텍처를 위한 레거시 시스템 전환 평가 및 포지셔닝.",
       "exp.3.badge": "2021년 3월 – 2023년 10월",
-      "exp.3.role": "프로젝트 매니저 & 시니어 소프트웨어 엔지니어",
+      "exp.3.role": "부사장 · 프로젝트 매니저 · 시니어 소프트웨어 엔지니어",
       "exp.3.company": "B&T Vietnam Solutions and Technology Company Limited",
       "exp.3.d0": "15~30명의 엔지니어(개발 및 QA) 팀을 위한 계획 수립 및 리소스 할당.",
       "exp.3.d1": "Agile을 사용하여 프로젝트당 5~8명의 팀원 지도, 위험 관리 및 중요 이슈 해결.",
@@ -459,6 +463,7 @@ var i18n = (function () {
       "exp.4.d2": "산업통상자원부의 다국어 번역 하이테크 제품 프로젝트 코디네이터.",
       "exp.4.d3": "Viegrid의 VCM12 코어 기술 기반 보안 시스템 구축, LAN 보안 서비스 개발.",
       "exp.4.d4": "<strong>팀 규모:</strong> 20+",
+      "exp.4.d5": "2016년부터 중간 관리자로서 개발 팀과 프로젝트를 이끎.",
       "skills.title": "기술",
       "skills.0.title": "관리",
       "skills.0.i0": "P&L 책임, 위험·비용·품질 관리",
@@ -507,7 +512,7 @@ var i18n = (function () {
       "hero.title": "Giám đốc trung tâm · Trưởng bộ phận · Quản lý Dự án Cao cấp",
       "hero.location": "Hà Nội, Việt Nam",
       "about.title": "Giới thiệu",
-      "about.text": "Kiến trúc sư Giải pháp và Quản lý CNTT định hướng kết quả có trụ sở tại Hà Nội, với 14 năm kinh nghiệm kỹ thuật phần mềm và hơn 7 năm kinh nghiệm lãnh đạo. Chuyên môn đã được chứng minh trong việc thiết kế các nền tảng doanh nghiệp có khả năng mở rộng, hệ thống chính phủ điện tử và các giải pháp hàng không quan trọng. Có khả năng kết nối các kiến trúc kỹ thuật phức tạp với mục tiêu kinh doanh để thúc đẩy chuyển đổi số. Nền tảng vững chắc trong việc dẫn dắt các nhóm đa chức năng sử dụng phương pháp Agile và PMI để đảm bảo phân phối dự án thành công từ ý tưởng đến triển khai. Thành thạo các công nghệ hiện đại bao gồm Java, .NET và Python, với thành tích tối ưu hóa hiệu quả vận hành và hiệu suất hệ thống.",
+      "about.text": "Kiến trúc sư Giải pháp và Quản lý CNTT định hướng kết quả có trụ sở tại Hà Nội, với {exp} năm kinh nghiệm kỹ thuật phần mềm và hơn {lead} năm kinh nghiệm lãnh đạo. Chuyên môn đã được chứng minh trong việc thiết kế các nền tảng doanh nghiệp có khả năng mở rộng, hệ thống chính phủ điện tử và các giải pháp hàng không quan trọng. Có khả năng kết nối các kiến trúc kỹ thuật phức tạp với mục tiêu kinh doanh để thúc đẩy chuyển đổi số. Nền tảng vững chắc trong việc dẫn dắt các nhóm đa chức năng sử dụng phương pháp Agile và PMI để đảm bảo phân phối dự án thành công từ ý tưởng đến triển khai. Thành thạo các công nghệ hiện đại bao gồm Java, .NET và Python, với thành tích tối ưu hóa hiệu quả vận hành và hiệu suất hệ thống. Chủ động ứng dụng AI — mô hình ngôn ngữ lớn (LLM), trợ lý lập trình AI và quy trình tác tử (agentic) — để đẩy nhanh phát triển ứng dụng, từ dựng nguyên mẫu, rà soát mã đến tự động hóa kiểm thử và bàn giao.",
       "exp.title": "Kinh nghiệm",
       "exp.0.badge": "Th4 2025 – Th4 2026",
       "exp.0.role": "Giám đốc trung tâm",
@@ -542,7 +547,7 @@ var i18n = (function () {
       "exp.2.d0": "Cung cấp tư vấn giải pháp kiến trúc cho các dự án nội bộ.",
       "exp.2.d1": "Đánh giá và định vị chuyển đổi hệ thống kế thừa cho kiến trúc hiện tại.",
       "exp.3.badge": "Th3 2021 – Th10 2023",
-      "exp.3.role": "Quản lý Dự án & Kỹ sư Phần mềm Cao cấp",
+      "exp.3.role": "Phó Giám đốc · Quản lý Dự án · Kỹ sư Phần mềm Cao cấp",
       "exp.3.company": "Công ty TNHH Giải pháp và Công nghệ B&T Việt Nam",
       "exp.3.d0": "Lập kế hoạch và phân bổ nguồn lực cho nhóm 15–30 kỹ sư (Dev và QA).",
       "exp.3.d1": "Chỉ đạo 5–8 thành viên mỗi dự án bằng Agile; quản lý rủi ro và giải quyết vấn đề nghiêm trọng.",
@@ -558,6 +563,7 @@ var i18n = (function () {
       "exp.4.d2": "Điều phối dự án sản phẩm công nghệ cao về dịch đa ngôn ngữ cho Bộ Công Thương.",
       "exp.4.d3": "Xây dựng hệ thống bảo mật trên công nghệ lõi VCM12 của Viegrid; phát triển dịch vụ bảo mật LAN.",
       "exp.4.d4": "<strong>Quy mô nhóm:</strong> 20+",
+      "exp.4.d5": "Từ năm 2016, đảm nhiệm vai trò quản lý cấp trung, dẫn dắt các nhóm phát triển và dự án.",
       "skills.title": "Kỹ năng",
       "skills.0.title": "Quản lý",
       "skills.0.i0": "Chịu trách nhiệm P&L, kiểm soát rủi ro, chi phí & chất lượng",
@@ -608,13 +614,18 @@ var i18n = (function () {
 
   function apply() {
     var year = new Date().getFullYear();
+    // Experience counters grow automatically each calendar year.
+    var EXP_START = 2012;   // first software engineering role
+    var LEAD_START = 2016;  // started as trainee manager
     var els = document.querySelectorAll('[data-i18n]');
     for (var i = 0; i < els.length; i++) {
       var el = els[i];
       var key = el.getAttribute('data-i18n');
       var text = getText(key);
       if (text !== undefined) {
-        el.innerHTML = text.replace(/\{year\}/g, year);
+        el.innerHTML = text.replace(/\{year\}/g, year)
+          .replace(/\{exp\}/g, year - EXP_START)
+          .replace(/\{lead\}/g, year - LEAD_START);
       }
     }
     var langLabel = document.getElementById('currentLang');
