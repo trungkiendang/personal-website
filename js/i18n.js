@@ -12,7 +12,7 @@ var i18n = (function () {
       "hero.title": "Head of Business Unit · Delivery Manager · Senior Project Manager",
       "hero.location": "Hanoi, Vietnam",
       "about.title": "About Me",
-      "about.text": "Results-driven Solution Architect and IT Manager based in Hanoi, bringing 14 years of software engineering and over 7 years of leadership experience. Proven expertise in designing scalable enterprise platforms, e-government systems, and mission-critical aviation solutions. Adept at aligning complex technical architectures with business objectives to drive digital transformation. Strong background in leading cross-functional teams utilizing Agile and PMI methodologies to ensure successful project delivery from conceptualization to deployment. Proficient in modern tech stacks including Java, .NET, and Python, with a track record of optimizing operational efficiency and system performance.",
+      "about.text": "Results-driven Solution Architect and IT Manager based in Hanoi, bringing {exp} years of software engineering and over {lead} years of leadership experience. Proven expertise in designing scalable enterprise platforms, e-government systems, and mission-critical aviation solutions. Adept at aligning complex technical architectures with business objectives to drive digital transformation. Strong background in leading cross-functional teams utilizing Agile and PMI methodologies to ensure successful project delivery from conceptualization to deployment. Proficient in modern tech stacks including Java, .NET, and Python, with a track record of optimizing operational efficiency and system performance. Actively applying AI — LLMs, AI coding assistants, and agentic workflows — to accelerate application development, from prototyping and code review to test automation and delivery.",
       "exp.title": "Experience",
       "exp.0.badge": "Apr 2025 – Apr 2026",
       "exp.0.role": "Head of Business Unit",
@@ -111,7 +111,7 @@ var i18n = (function () {
       "hero.title": "业务部门主管 · 交付经理 · 高级项目经理",
       "hero.location": "越南河内",
       "about.title": "关于我",
-      "about.text": "作为一名注重成果的解决方案架构师和IT经理，常驻越南河内，拥有14年软件工程经验和超过7年的领导经验。在设计可扩展的企业平台、电子政务系统和关键任务航空解决方案方面具有经过验证的专业知识。擅长将复杂的技术架构与业务目标相结合，推动数字化转型。在领导跨职能团队使用Agile和PMI方法论确保项目从概念到交付的成功方面拥有丰富的经验。精通现代技术栈，包括Java、.NET和Python，在优化运营效率和系统性能方面有着良好的记录。",
+      "about.text": "作为一名注重成果的解决方案架构师和IT经理，常驻越南河内，拥有{exp}年软件工程经验和超过{lead}年的领导经验。在设计可扩展的企业平台、电子政务系统和关键任务航空解决方案方面具有经过验证的专业知识。擅长将复杂的技术架构与业务目标相结合，推动数字化转型。在领导跨职能团队使用Agile和PMI方法论确保项目从概念到交付的成功方面拥有丰富的经验。精通现代技术栈，包括Java、.NET和Python，在优化运营效率和系统性能方面有着良好的记录。积极应用人工智能——大语言模型、AI编程助手和智能体工作流——加速应用开发，涵盖原型设计、代码审查、测试自动化到交付。",
       "exp.title": "经历",
       "exp.0.badge": "2025年4月 – 2026年4月",
       "exp.0.role": "业务部门主管",
@@ -210,7 +210,7 @@ var i18n = (function () {
       "hero.title": "事業部長 · デリバリーマネージャー · シニアプロジェクトマネージャー",
       "hero.location": "ベトナム ハノイ",
       "about.title": "私について",
-      "about.text": "結果重視のソリューションアーキテクト兼ITマネージャー、ハノイ在住。14年のソフトウェアエンジニアリング経験と7年以上のリーダーシップ経験を有する。スケーラブルなエンタープライズプラットフォーム、電子政府システム、ミッションクリティカルな航空ソリューションの設計における確かな専門知識を持つ。複雑な技術アーキテクチャをビジネス目標と整合させ、デジタルトランスフォーメーションを推進することに長けている。AgileおよびPMI手法を活用したクロスファンクショナルチームのリーダーシップにおいて豊富な経験を持ち、構想から展開までのプロジェクト成功を確実にする。Java、.NET、Pythonを含む最新のテクノロジースタックに精通し、運用効率とシステムパフォーマンスの最適化で実績を挙げている。",
+      "about.text": "結果重視のソリューションアーキテクト兼ITマネージャー、ハノイ在住。{exp}年のソフトウェアエンジニアリング経験と{lead}年以上のリーダーシップ経験を有する。スケーラブルなエンタープライズプラットフォーム、電子政府システム、ミッションクリティカルな航空ソリューションの設計における確かな専門知識を持つ。複雑な技術アーキテクチャをビジネス目標と整合させ、デジタルトランスフォーメーションを推進することに長けている。AgileおよびPMI手法を活用したクロスファンクショナルチームのリーダーシップにおいて豊富な経験を持ち、構想から展開までのプロジェクト成功を確実にする。Java、.NET、Pythonを含む最新のテクノロジースタックに精通し、運用効率とシステムパフォーマンスの最適化で実績を挙げている。LLM、AIコーディングアシスタント、エージェント型ワークフローなどのAIを積極的に活用し、プロトタイピングやコードレビューからテスト自動化、デリバリーに至るまでアプリケーション開発を加速している。",
       "exp.title": "経歴",
       "exp.0.badge": "2025年4月 – 2026年4月",
       "exp.0.role": "事業部長",
@@ -309,7 +309,7 @@ var i18n = (function () {
       "hero.title": "Leiter Geschäftsbereich · Delivery Manager · Senior Projektmanager",
       "hero.location": "Hanoi, Vietnam",
       "about.title": "Über mich",
-      "about.text": "Ergebnisorientierter Solution Architect und IT-Manager mit Sitz in Hanoi mit 14 Jahren Erfahrung in der Softwareentwicklung und über 7 Jahren Führungserfahrung. Nachgewiesene Expertise im Entwurf skalierbarer Unternehmensplattformen, E-Government-Systeme und sicherheitskritischer Luftfahrtlösungen. Versiert in der Abstimmung komplexer technischer Architekturen mit Geschäftszielen zur Förderung der digitalen Transformation. Umfassender Hintergrund in der Leitung funktionsübergreifender Teams mit Agile- und PMI-Methoden zur Sicherstellung erfolgreicher Projektabwicklung von der Konzeption bis zur Bereitstellung. Kenntnisreich in modernen Technologie-Stacks einschließlich Java, .NET und Python mit nachweislicher Erfolgsbilanz bei der Optimierung von Betriebseffizienz und Systemleistung.",
+      "about.text": "Ergebnisorientierter Solution Architect und IT-Manager mit Sitz in Hanoi mit {exp} Jahren Erfahrung in der Softwareentwicklung und über {lead} Jahren Führungserfahrung. Nachgewiesene Expertise im Entwurf skalierbarer Unternehmensplattformen, E-Government-Systeme und sicherheitskritischer Luftfahrtlösungen. Versiert in der Abstimmung komplexer technischer Architekturen mit Geschäftszielen zur Förderung der digitalen Transformation. Umfassender Hintergrund in der Leitung funktionsübergreifender Teams mit Agile- und PMI-Methoden zur Sicherstellung erfolgreicher Projektabwicklung von der Konzeption bis zur Bereitstellung. Kenntnisreich in modernen Technologie-Stacks einschließlich Java, .NET und Python mit nachweislicher Erfolgsbilanz bei der Optimierung von Betriebseffizienz und Systemleistung. Setzt KI aktiv ein – LLMs, KI-Coding-Assistenten und agentische Workflows –, um die Anwendungsentwicklung vom Prototyping über Code-Reviews bis hin zu Testautomatisierung und Auslieferung zu beschleunigen.",
       "exp.title": "Berufserfahrung",
       "exp.0.badge": "Apr. 2025 – Apr. 2026",
       "exp.0.role": "Leiter Geschäftsbereich",
@@ -408,7 +408,7 @@ var i18n = (function () {
       "hero.title": "비즈니스 유닛 총괄 · 딜리버리 매니저 · 시니어 프로젝트 매니저",
       "hero.location": "베트남 하노이",
       "about.title": "소개",
-      "about.text": "하노이 기반의 결과 중심 솔루션 아키텍트 겸 IT 매니저로, 14년의 소프트웨어 엔지니어링 경험과 7년 이상의 리더십 경험을 보유하고 있습니다. 확장 가능한 엔터프라이즈 플랫폼, 전자정부 시스템, 미션 크리티컬 항공 솔루션 설계에 검증된 전문성을 갖추고 있습니다. 복잡한 기술 아키텍처를 비즈니스 목표와 정렬하여 디지털 전환을 추진하는 데 능숙합니다. Agile 및 PMI 방법론을 활용한 교차 기능 팀 리더십에 강력한 배경을 가지고 있으며, 개념화부터 배포까지 프로젝트 성공을 보장합니다. Java, .NET, Python을 포함한 최신 기술 스택에 능통하며, 운영 효율성과 시스템 성능 최적화에서 입증된 실적을 보유하고 있습니다.",
+      "about.text": "하노이 기반의 결과 중심 솔루션 아키텍트 겸 IT 매니저로, {exp}년의 소프트웨어 엔지니어링 경험과 {lead}년 이상의 리더십 경험을 보유하고 있습니다. 확장 가능한 엔터프라이즈 플랫폼, 전자정부 시스템, 미션 크리티컬 항공 솔루션 설계에 검증된 전문성을 갖추고 있습니다. 복잡한 기술 아키텍처를 비즈니스 목표와 정렬하여 디지털 전환을 추진하는 데 능숙합니다. Agile 및 PMI 방법론을 활용한 교차 기능 팀 리더십에 강력한 배경을 가지고 있으며, 개념화부터 배포까지 프로젝트 성공을 보장합니다. Java, .NET, Python을 포함한 최신 기술 스택에 능통하며, 운영 효율성과 시스템 성능 최적화에서 입증된 실적을 보유하고 있습니다. LLM, AI 코딩 어시스턴트, 에이전트 워크플로우 등 AI를 적극 활용하여 프로토타이핑과 코드 리뷰부터 테스트 자동화와 배포에 이르기까지 애플리케이션 개발을 가속화하고 있습니다.",
       "exp.title": "경력",
       "exp.0.badge": "2025년 4월 – 2026년 4월",
       "exp.0.role": "비즈니스 유닛 총괄",
@@ -507,7 +507,7 @@ var i18n = (function () {
       "hero.title": "Giám đốc trung tâm · Trưởng bộ phận · Quản lý Dự án Cao cấp",
       "hero.location": "Hà Nội, Việt Nam",
       "about.title": "Giới thiệu",
-      "about.text": "Kiến trúc sư Giải pháp và Quản lý CNTT định hướng kết quả có trụ sở tại Hà Nội, với 14 năm kinh nghiệm kỹ thuật phần mềm và hơn 7 năm kinh nghiệm lãnh đạo. Chuyên môn đã được chứng minh trong việc thiết kế các nền tảng doanh nghiệp có khả năng mở rộng, hệ thống chính phủ điện tử và các giải pháp hàng không quan trọng. Có khả năng kết nối các kiến trúc kỹ thuật phức tạp với mục tiêu kinh doanh để thúc đẩy chuyển đổi số. Nền tảng vững chắc trong việc dẫn dắt các nhóm đa chức năng sử dụng phương pháp Agile và PMI để đảm bảo phân phối dự án thành công từ ý tưởng đến triển khai. Thành thạo các công nghệ hiện đại bao gồm Java, .NET và Python, với thành tích tối ưu hóa hiệu quả vận hành và hiệu suất hệ thống.",
+      "about.text": "Kiến trúc sư Giải pháp và Quản lý CNTT định hướng kết quả có trụ sở tại Hà Nội, với {exp} năm kinh nghiệm kỹ thuật phần mềm và hơn {lead} năm kinh nghiệm lãnh đạo. Chuyên môn đã được chứng minh trong việc thiết kế các nền tảng doanh nghiệp có khả năng mở rộng, hệ thống chính phủ điện tử và các giải pháp hàng không quan trọng. Có khả năng kết nối các kiến trúc kỹ thuật phức tạp với mục tiêu kinh doanh để thúc đẩy chuyển đổi số. Nền tảng vững chắc trong việc dẫn dắt các nhóm đa chức năng sử dụng phương pháp Agile và PMI để đảm bảo phân phối dự án thành công từ ý tưởng đến triển khai. Thành thạo các công nghệ hiện đại bao gồm Java, .NET và Python, với thành tích tối ưu hóa hiệu quả vận hành và hiệu suất hệ thống. Chủ động ứng dụng AI — mô hình ngôn ngữ lớn (LLM), trợ lý lập trình AI và quy trình tác tử (agentic) — để đẩy nhanh phát triển ứng dụng, từ dựng nguyên mẫu, rà soát mã đến tự động hóa kiểm thử và bàn giao.",
       "exp.title": "Kinh nghiệm",
       "exp.0.badge": "Th4 2025 – Th4 2026",
       "exp.0.role": "Giám đốc trung tâm",
@@ -608,13 +608,18 @@ var i18n = (function () {
 
   function apply() {
     var year = new Date().getFullYear();
+    // Experience counters grow automatically each calendar year.
+    var EXP_START = 2012;   // first software engineering role
+    var LEAD_START = 2019;  // first leadership role
     var els = document.querySelectorAll('[data-i18n]');
     for (var i = 0; i < els.length; i++) {
       var el = els[i];
       var key = el.getAttribute('data-i18n');
       var text = getText(key);
       if (text !== undefined) {
-        el.innerHTML = text.replace(/\{year\}/g, year);
+        el.innerHTML = text.replace(/\{year\}/g, year)
+          .replace(/\{exp\}/g, year - EXP_START)
+          .replace(/\{lead\}/g, year - LEAD_START);
       }
     }
     var langLabel = document.getElementById('currentLang');
