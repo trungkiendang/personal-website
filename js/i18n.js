@@ -60,7 +60,7 @@ var i18n = (function () {
       "skills.0.i1": "Stakeholder engagement & roadmap prioritization",
       "skills.0.i2": "Team scaling, coaching & mentoring",
       "skills.0.i3": "Agile/Scrum, Kanban, Waterfall, Jira",
-      "skills.1.title": "Languages",
+      "skills.1.title": "Programming Languages",
       "skills.1.i0": "<strong>Java</strong> — Spring Boot (Advanced)",
       "skills.1.i1": "<strong>.NET</strong> — Core + Framework (Advanced)",
       "skills.1.i2": "<strong>Python</strong> — Intermediate",
@@ -588,11 +588,11 @@ var i18n = (function () {
 
   apply();
 
-  $(function () {
-    $('[data-lang]').on('click', function (e) {
-      e.preventDefault();
-      setLang($(this).data('lang'));
-    });
+  document.addEventListener('click', function (e) {
+    var link = e.target.closest ? e.target.closest('[data-lang]') : null;
+    if (!link) return;
+    e.preventDefault();
+    setLang(link.getAttribute('data-lang'));
   });
 
   return { getLang: function () { return currentLang; }, setLang: setLang, apply: apply };
