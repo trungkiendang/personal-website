@@ -203,9 +203,13 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 /* ===== Responsive ===== */
 @media (max-width: 767px) {
   body { font-size: 16px; }
-  .hero { padding: 104px 0 56px; }
+  .hero { padding: 136px 0 56px; }
   .section { padding: 64px 0; }
-  .nav-links { display: none; }
+  .nav-inner { flex-wrap: wrap; height: auto; padding-top: 4px; }
+  .nav-links { order: 3; width: 100%; overflow-x: auto; scrollbar-width: none; padding-bottom: 6px; }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a { white-space: nowrap; }
+  html { scroll-padding-top: 96px; }
   .timeline-content, .edu-card { padding: 22px; }
   .hero-contact { flex-direction: column; align-items: center; }
 }

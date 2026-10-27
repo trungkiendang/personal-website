@@ -60,7 +60,7 @@ var i18n = (function () {
       "skills.0.i1": "Stakeholder engagement & roadmap prioritization",
       "skills.0.i2": "Team scaling, coaching & mentoring",
       "skills.0.i3": "Agile/Scrum, Kanban, Waterfall, Jira",
-      "skills.1.title": "Languages",
+      "skills.1.title": "Programming Languages",
       "skills.1.i0": "<strong>Java</strong> — Spring Boot (Advanced)",
       "skills.1.i1": "<strong>.NET</strong> — Core + Framework (Advanced)",
       "skills.1.i2": "<strong>Python</strong> — Intermediate",
