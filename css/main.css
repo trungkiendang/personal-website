@@ -62,7 +62,7 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 .narrow { max-width: 760px; width: 100%; margin: 0 auto; }
 .row { display: flex; flex-wrap: wrap; gap: 20px; }
 .col { flex: 1 1 280px; min-width: 0; }
-.col-4 { flex: 1 1 220px; }
+.col-4 { flex: 1 1 180px; }
 
 /* ===== Navigation (glass) ===== */
 .nav {
@@ -131,6 +131,7 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 /* ===== Sections ===== */
 .section { padding: 96px 0; }
 .section-alt { background: var(--bg-alt); }
+#skills .narrow { max-width: none; }
 .section-title {
   font-size: clamp(30px, 5vw, 48px); font-weight: 700; line-height: 1.1; letter-spacing: -0.03em;
   margin-bottom: 40px;
